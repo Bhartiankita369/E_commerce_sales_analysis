@@ -1,4 +1,10 @@
 # E_commerce_sales_analysis
+🚀 Project Overview
+
+This project uses the Online Retail dataset to build a SQL-based data warehouse and perform advanced analytics.
+The goal is to showcase database design, ETL, query optimization, and insight generation with only SQL.
+
+Business Objective: Provide e-commerce insights on revenue, returns, customer behavior, and product performance directly from SQL queries.
 ---Revenue by country
 
 ```SQL
