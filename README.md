@@ -5,6 +5,33 @@ This project uses the Online Retail dataset to build a SQL-based data warehouse 
 The goal is to showcase database design, ETL, query optimization, and insight generation with only SQL.
 
 Business Objective: Provide e-commerce insights on revenue, returns, customer behavior, and product performance directly from SQL queries.
+
+🔧 Tech Stack
+
+PostgreSQL (can be adapted to MySQL / SQL Server)
+
+DDL, DML, DQL (Database creation, data cleaning, querying)
+
+Window functions, CTEs, aggregation
+
+Database Schema
+
+Fact Tables:
+
+fact_orders → Orders with invoice, product, customer, quantity, price
+
+fact_returns → Returned orders
+
+Dimension Tables:
+
+dim_customers → Customer details
+
+dim_products → Product catalog
+
+
+
+
+
 ---Revenue by country
 
 ```SQL
