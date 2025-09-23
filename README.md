@@ -95,15 +95,6 @@ GROUP BY c.country
 ORDER BY avg_order_value DESC;
 ```
 
----Average Order Value (AOV) by Country
-```SQL
-SELECT c.country, 
-       ROUND(SUM(o.total_amount) / COUNT(DISTINCT o.invoice_no), 2) AS avg_order_value
-FROM "Sales Analysis".fact_orders o
-JOIN "Sales Analysis".dim_customers c ON o.customer_id = c.customer_id
-GROUP BY c.country
-ORDER BY avg_order_value DESC;
-```
 ---Repeat Purchase Rate
 ```SQL
 WITH purchase_counts AS (
