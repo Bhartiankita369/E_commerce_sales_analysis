@@ -8,7 +8,7 @@ Business Objective: Provide e-commerce insights on revenue, returns, customer be
 
 🔧 Tech Stack
 
-PostgreSQL (can be adapted to MySQL / SQL Server)
+PostgreSQL 
 
 DDL, DML, DQL (Database creation, data cleaning, querying)
 
